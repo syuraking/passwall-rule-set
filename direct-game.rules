@@ -1,4 +1,4 @@
-config shunt_rules 'DirectGame'
+config shunt_rules 'Direct Game'
 option remarks 'Direct Game'
 option network 'tcp,udp'
 option domain_list 'regexp:\.cm.steampowered.com$
