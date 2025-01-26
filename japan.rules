@@ -1,0 +1,10 @@
+config shunt_rules 'Japan'
+	option remarks 'Need Japan Local IP Site'
+	option network 'tcp,udp'
+	option domain_list 'regexp:.*\.jp$
+regexp:.*\.co\.jp$
+domain:dlsite.com
+domain:erogamescape.org
+domain:dyndns.org
+'
+	option ip_list 'geoip:jp'
