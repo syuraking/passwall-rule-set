@@ -1,6 +1,3 @@
-config shunt_rules 'AIGC'
-	option remarks 'AI Domain Site'
-	option domain_list 'domain:reddit.com
 geosite:category-ai-chat-!cn
 apple-relay.apple.com
 copilot.microsoft.com
@@ -35,5 +32,4 @@ domain:openaicom.imgix.net
 domain:segment.io
 domain:sentry.io
 domain:stripe.com
-domain:turn.livekit.cloud'
-	option network 'tcp,udp'
+domain:turn.livekit.cloud
