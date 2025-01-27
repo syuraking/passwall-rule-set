@@ -1,6 +1,4 @@
-config shunt_rules 'Streaming'
-	option remarks 'Streaming Media Site'
-	option domain_list 'audio4-ak-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
 cdn-spotify-experiments.conductrics.com
 heads-ak-spotify-com.akamaized.net
 spotify.com.edgesuite.net
@@ -61,5 +59,4 @@ domain:spotifynewsroom.jp
 domain:spotilocal.com
 domain:tospotify.com
 geosite:netflix
-geosite:disney'
-	option network 'tcp,udp'
+geosite:disney
