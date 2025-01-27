@@ -1,7 +1,4 @@
-config shunt_rules 'Google'
-	option remarks 'Google Domain Set'
-	option network 'tcp,udp'
-	option domain_list 'domain:googleapis.cn
+domain:googleapis.cn
 domain:googleapis.com
 domain:xn--ngstr-lra8j.com
 domain:ggpht.cn
@@ -183,4 +180,4 @@ domain:youtubekids.com
 domain:youtubemobilesupport.com
 domain:yt.be
 domain:ytimg.com
-geosite:google'
+geosite:google
