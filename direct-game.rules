@@ -1,11 +1,13 @@
-config shunt_rules 'DirectGame'
-option remarks 'Direct Game'
-option network 'tcp,udp'
-option domain_list 'regexp:\.cm.steampowered.com$
+#domain setting
+regexp:\.cm.steampowered.com$
 regexp:\.steamserver.net$
 domain:mihoyo.com
-geosite:category-games@cn'
-option ip_list '103.10.124.0/24
+geosite:category-games@cn
+
+
+
+#ip setting
+103.10.124.0/24
 103.10.125.0/24
 103.28.54.0/24
 146.66.152.0/24
@@ -50,4 +52,4 @@ option ip_list '103.10.124.0/24
 208.64.201.0/24
 208.64.202.0/24
 208.64.203.0/24
-208.78.164.0/22'
+208.78.164.0/22
