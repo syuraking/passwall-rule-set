@@ -1,4 +1,2 @@
-config shunt_rules 'SpecialSite'
-	option remarks 'Need Clean IP Site'
-	option network 'tcp,udp'
-	option domain_list 'domain:reddit.com'
+domain:reddit.com
+domain:nodeseek.com
